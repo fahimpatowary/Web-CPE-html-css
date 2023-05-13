@@ -1,0 +1,87 @@
+*** work List ***
+1) Home Page(2.5)
+	.Navber(done) need  change
+        .Heros(done) need  change
+        .Package(done)
+	.MajorFields(done)
+        .About Us(done)
+	.Contact From(done)
+	.Footer Top 1/carificaion(done)
+	.Footer Top 2/carificaion(done)
+	.Blog(done)
+	.Footer(done) need change
+	.Copy Write(done)
+2) Packages(.5)(done)
+3) Packages single page(.5)(done)
+4) Courses For CPAS(.5)(done)
+5) IRS Courses(0)(done)
+6) login,(done)
+   SingUP,(done)
+   Join Us(1.5)
+7) Contact Us,(no need)
+   About US,(done) 
+   Privacy Policy,(done)
+   Terms & conditon(done)
+   FAQA(1.5)(done)
+8) blog,(done)
+   blog single(done)
+9) user profile
+	.Edit Profile
+	.Change Password
+	.My Paid Courses
+	.My paid Package
+	.My Completed Courses
+
+*** workig Date and works ***
+Date: 26-04-2023
+================
+1) Home Page
+	.Navber(done)
+        .Heros(done)
+        .Package(done)
+	.Footer Top 1(done)
+	.Footer Top 2(done)
+	.Footer(done)
+	.Copy Write(done)
+
+Date: 27-04-2023
+================
+1) Home Page
+	.Navber(done)change
+        .Heros(done)change
+	.MajorFields(done)
+        .About Us(done)
+	.Contact From(done)
+	.carificaion(done-changed(Footer Top 1 & 2))
+	.Blog(done)
+	.Footer(done)change
+
+Date: 29-04-2023
+================
+2) Packages(.5)(done)
+3) Packages single page(.5)(done)
+6) login,(done)
+   SingUP,(done) 
+7) About US,(done) 
+   Privacy Policy,(done)
+   Terms & conditon(done)
+   FAQA(1.5)(done)
+8) blog(done)
+
+Date: 30-04-2023
+================
+8) blog single(done)
+9) user profile
+	.Edit Profile
+	.Change Password
+
+Date: 02-05-2023
+================
+	.update sing up
+	.heros, footer
+	.contact us
+
+
+============ * =============
+For This Project Need 7 Days
+============ * =============

@@ -1,0 +1,17 @@
+02-05-2023
+==========
+1) id automatic number(sning in page)
+2) one page sing up
+3) PTIN fild show and hide acording to CPA
+4) email confirmation()
+5) show massage for email when sing up clicked
+6) login with mail and passoward.
+7) update profile page design(Left & Right)
+
+profile(not understend)
+
+next stap
+=========
+1) last 5years
+2) last 1year
+3) owner can massage clients
