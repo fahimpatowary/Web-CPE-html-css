@@ -1334,8 +1334,13 @@ footer p {
 .profile-page .tab-content {
     width: 100%;
 }
-
 /* User Profile end */
+
+.copy-write{
+    background-color: var(--dark-blue);
+    color: white;
+    border-top: 1px solid white;
+}
 
 @media (min-width: 1200px) {
     .container,
