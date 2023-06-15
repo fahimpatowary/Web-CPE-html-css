@@ -1195,8 +1195,6 @@ footer p {
     padding: 5px;
     border-radius: 10px;
     color: rgb(0, 0, 0);
-    /* background-color: #ffffff; */
-    /* box-shadow: 0 4px 20px rgba(65, 65, 65, 0.1); */
     transition: all .7s;
 }
 
@@ -1358,6 +1356,28 @@ footer p {
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
+}
+
+.comment-card img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.comment-card a{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    background-color: var(--dark-blue);
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.comment-card a:hover{
+    background-color: var(--hover-yellow);
 }
 /* blog page end */
 
