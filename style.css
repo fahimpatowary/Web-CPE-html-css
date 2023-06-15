@@ -931,58 +931,6 @@ footer p {
 
 /* package page end */
 
-/* .course-card {
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 10px;
-    transition: all .7s;
-    box-shadow: 0 4px 20px rgba(65, 65, 65, 0.1);
-}
-
-.course-card:hover {
-    transform: translateY(-7px);
-}
-
-.course-card .img-box{
-    border-radius: 10px;
-    height: 220px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.course-card .img-box img{
-    border-radius: 10px;
-}
-
-.course-card a{
-    text-decoration: none;
-}
-
-.course-card h4{
-    font-size: 24px;
-    font-weight: 600;
-    color: black;
-}
-
-.course-card p{
-    margin-bottom: 10px;
-}
-
-.course-card ul{
-    padding: 0;
-    list-style: none;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.course-card ul .price{
-    font-weight: 600;
-    font-size: 24px;
-} */
 
 /* package single page start */
 .package-single-heros .h2 {
@@ -1191,16 +1139,64 @@ footer p {
 /* about us end */
 
 /* blog page start */
-.blog-page {
-    /* background-color: white; */
+.blog-heros{
+    background-color: rgb(223 223 223);
+    padding: 6rem 0;
+    background-size: cover;
+    color: white;
+    font-size: 18px;
+}
+
+.blog-heros .h2 {
+    background: none !important;
+    color: var(--dark-blue);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.blog-heros .h2 h2 {
+    color: var(--dark-blue);
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 5px !important;
+}
+
+.blog-heros .h2 a{
+    text-decoration: none;
+}
+
+.blog-heros .h2 a:first-child {
+    color: black;
+    margin-right: .7rem;
+}
+
+.blog-heros .h2 a:last-child{
+    color: var(--dark-blue);
+    margin-left: .6rem;
+}
+
+.blog-card .img-box{
+    position: relative;
+}
+
+.blog-card .img-box span{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--dark-blue);
+    font-weight: 700;
+    color: white;
 }
 
 .blog-page .blog-card {
     padding: 5px;
     border-radius: 10px;
     color: rgb(0, 0, 0);
-    background-color: #ffffff;
-    box-shadow: 0 4px 20px rgba(65, 65, 65, 0.1);
+    /* background-color: #ffffff; */
+    /* box-shadow: 0 4px 20px rgba(65, 65, 65, 0.1); */
     transition: all .7s;
 }
 
@@ -1251,6 +1247,27 @@ footer p {
     max-height: 100%;
 }
 
+.blog-card ul{
+    list-style: none;
+    padding: 0;
+}
+
+.blog-card ul li{
+    display: inline-block;
+    margin-right: .5rem;
+}
+
+.blog-card ul li i{
+    color: var(--dark-blue);
+}
+
+.blog-page .recent-post {
+    background-color: rgb(227, 227, 227);
+    padding: 20px;
+    border-radius: 7px;
+    padding-bottom: 15px;
+}
+
 .blog-page .recent-post h5 {
     font-size: 22px;
     font-weight: 600;
@@ -1259,6 +1276,20 @@ footer p {
     border-bottom: 4px solid var(--dark-blue);
 }
 
+.blog-page .recent-post .recent-post-card {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.blog-page .recent-post .recent-post-card:hover {
+    color: var(--dark-blue);
+}
+
+.blog-page .recent-post .recent-post-card i {
+    color: var(--dark-blue);
+} 
+
 .blog-page .recent-post .recent-post-card:not(:last-child) {
     border-bottom: 1px solid var(--dark-blue);
     padding-bottom: 1rem;
@@ -1266,9 +1297,9 @@ footer p {
 
 .blog-page .recent-post .recent-post-card img {
     height: 80px;
-    width: 110px;
+    width: 80px;
     margin-right: 1.3rem;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 
 .blog-page .recent-post .recent-post-card p {
@@ -1277,6 +1308,57 @@ footer p {
     margin-bottom: 3px;
 }
 
+.recent-post ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recent-post ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.recent-post ul li a{
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+.recent-post ul li a:hover{
+    background-color: var(--hover-yellow);
+    color: white;
+}
+
+.blog-search input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #c7c7c7;
+    outline: none;
+}
+
+.blog-search form{
+    width: 100%;
+    position: relative;
+}
+
+.blog-search form label{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: var(--yellow);
+    color: white;
+    padding: 13px;
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
 /* blog page end */
 
 /* User Profile start */
@@ -1374,7 +1456,7 @@ footer p {
 
 :root {
     --yellow: #ffc107;
-    --hover-yellow: #ffdd79;
+    --hover-yellow: #f8ac35;
     --dark-blue: #043b71;
     --green: #79a889;
     --red: #ec716b;
